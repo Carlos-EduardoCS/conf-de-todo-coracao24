@@ -19,3 +19,6 @@ PARA NOSSA CONFERENCIA
 
 
 t-shir / conf 2024.zip
+
+PACKAGE EMOJIS:
+🧨 🔥 ❤️‍🔥

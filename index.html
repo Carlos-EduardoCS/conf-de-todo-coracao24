@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> SEJA-BEM VINDO | CONF-2024 </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
 </head>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 <body>
     <header id="header">
         <img class="logo-jni" src="imgs/logos/brand-jni.png" alt="Brand jni">
@@ -32,6 +35,9 @@
             </ul>
         </nav>
     </header>
+    <div class="pc-none">
+        .
+    </div>
     <div class="INTRO">
        <img src="imgs/logos/logo-de-todo-coracao.png" class="LOGO-CONF" alt="">
     </div>
@@ -43,7 +49,7 @@
 
 
     <div id="LINE-UP">
-        <h1 style="color: white; text-align: center; font-family: Open Sans, sans-serif; font-weight: bolder; font-size: 48px;">
+        <h1 class="line-up-ttl" style="color: white; text-align: center; font-family: Poppins, Open Sans, sans-serif; font-weight: bolder; font-size: 48px;">
             LINE UP
 
         </h1>
@@ -55,37 +61,38 @@
             <img src="imgs/quadrado branco.jfif" alt="" class="pregador">
         </div>
 
-        <p style="color: white; font-family: Poppins;">
-            A line up será disponibilizada dias antes da conferencia ;)
-            Mas fique ligado nas redes socias. ❤️‍🔥
+        <p class="line-up-txt" style="color: white; font-family: Poppins;">
+            A line up será disponibilizada dias antes da conferência ;) <br>
+            Por isso, fique ligado nas redes socias. ❤️‍🔥
         </p>
 
     </div>
 
-    <diV id="INSCRIÇÃO">    
-        <h1 style="color: black;">
+    <div id="INSCRIÇÃO">    
+        <h1 class="inscricao-ttl" style="color: black;">
             🧨 Inscrição 🧨
         </h1>
-
+    <div class="infos-txt">
         <p style="margin-bottom: 30px;">
             Esse evento é totalmente gratuito, mas por questões de organização é necessário reservar o ingresso através desse link:
         </p >
 
-        <a style="color: rgb(148, 47, 243); " href="https://lets.events/e/conferencia-de-todo-coracao/" target="_blank" class="link1" > 
+        <a style="color: rgb(148, 47, 243); " href="https://lets.events/e/conferencia-de-todo-coracao/" target="_blank" class="link1" >
             CLIQUE AQUI
         </a>
 
         <p style="margin-top: 30px;">
-            É rápido e fácil né nao? 
-            Após a confirmação da inscrição guarde contigo o "boleto" e o QR CODE da inscrição para confirmação na entrada do evento.
-
+            É rápido e fácil né não?
+            Após a confirmação da inscrição guarde contigo o "boleto" e o QR CODE da inscrição para caso de confirmação na entrada do evento.
         </p>
-    </diV>
+    </div>
+
+    </div>
     
     <div id="T-SHIRT">
 
-        <h1 style="font-size: 27px;">
-            JERSEY CONF- 2024:
+        <h1 class="jersey-ttl" style="font-size: 27px;">
+            Jersey Conf 24 &copy;
         </h1>
         <div class="container" id="img">
             <img src="imgs/camisetsa/pretas/png/preta-frente.png" alt="" class="camiseta-mockup">
@@ -107,40 +114,63 @@
             Endereço do templo
         </h1>
         <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.254493074933!2d-47.17597632378039!3d-22.83007213513558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8bfa95089f14f%3A0x7c21bd81217d280a!2sIgreja%20do%20Nazareno%20Nova%20Cana%C3%A3!5e0!3m2!1sen!2sbr!4v1718377118637!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
 
-    <div class="count-down">
-        <video class="video-bg" src="videos/cout-down-bg.mp4" muted loop autoplay></video>
-        <div class="count-container">
-            <div class="countdown-el-days">
-                <p class="text-cout" id="days">0</p>
-                <span> Dias </span>
+    <div class="count-down"> 
+
+            <div class="count-container">
+                <div class="countdown-el-days">
+                    <p class="text-cout" id="days">0</p>
+                    <span> Dias </span>
+                </div>
+
+                <div class="countdown-el-hours">
+                    <p class="text-cout" id="hours">0</p>
+                    <span> Horas </span>
+                </div>
+
+                <div class="countdown-el-mins ">
+                    <p class="text-cout" id="mins">0</p>
+                    <span> Minutos </span>
+                </div>
+
+                <div class="countdown-el-days">
+                    <p class="text-cout" id="segs">0</p>
+                    <span> Segundos </span>
             </div>
-
-            <div class="countdown-el-hours">
-                <p class="text-cout" id="hours">0</p>
-                <span> Horas </span>
-            </div>
-
-            <div class="countdown-el-mins ">
-                <p class="text-cout" id="mins">0</p>
-                <span> Minutos </span>
-            </div>
-
-            <div class="countdown-el-days">
-                <p class="text-cout" id="segs">0</p>
-                <span> Segundos </span>
         </div>
     </div>
-    -->
-    <footer>
 
-    </footer>
+    </div>
+
+        <footer>
+            <div class="social-media-nc">
+                <div class="all-directs">
+                    <p style="text-align: center;
+                    font-size: 10px;">
+                        Todos os direitos reservados a <br>
+                        <strong style="text-decoration: underline;">JNI Nova Canaã e <abbr title="Igreja do Nazareno Nova Canaã">INNC</abbr>  &copy</strong>
+                    </p>
+                </div>
+
+                <div class="socials-media">
+                    <a href="https://www.instagram.com/jninovacanaa/" target="_blank" ><img src="imgs/logos/brand-jni.png" class="logos-in-footer" alt=""></a>
+                    <img src="imgs/logos/logo-de-todo-coracao.png" class="logos-in-footer" alt="">
+                </div>
+
+                <hr>
+
+                <div class="in-footer">
+                    <div class="deploy">
+                        <p style="font-size: 9.5px ;">
+                            Esta pagina foi projetada e desenvolvida por  <br> <a href="" style="color: blueviolet; text-decoration: underline;"> Carlos Eduardo </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
 <script src="js/Script.js"></script>
-<script src="js/ScrollReveal.js"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-
+<script src="js/ScrollReveal.js" defer></script>
 
 
 </html>
